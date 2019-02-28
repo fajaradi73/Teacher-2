@@ -85,8 +85,10 @@ class Login extends Component {
           }
         }
       });
-
+    
     this.setState({ errors });
+    console.warn(this.state.userEmail);
+    console.warn(this.state.userPassword);
   }
 
   updateRef = (name, ref) => {
@@ -175,7 +177,7 @@ class Login extends Component {
           </TouchableOpacity>
           <View style={styles.signUp}>
             <Text style={styles.userSignQuestionText}>Belum mempunyai akun?</Text>
-            <TouchableOpacity onPress={() => this.props.navigation.navigate('SignRole', {transition : 'slideFromRight'})}>
+            <TouchableOpacity onPress={() => this.props.navigation.navigate('DaftarGuru', {transition : 'slideFromRight'})}>
               <Text style={styles.userSignTypeText}> Daftar</Text>
             </TouchableOpacity>
           </View>

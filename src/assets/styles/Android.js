@@ -201,5 +201,97 @@ export default StyleSheet.create({
         justifyContent : "center",
         alignItems : "center",
         borderRadius : 80,
+    },
+    containerDaftar : {
+
+        backgroundColor:'#40bfe8',
+        flexGrow: 1
+    },
+    containerToolbar:{
+        backgroundColor:'#40bfe8',
+        alignItems:'flex-start',
+        flexDirection:"row"
+    },
+    containerView: {
+        backgroundColor:'#FFFFFF',
+        flexGrow: 1,
+    },
+    containerText: {
+        backgroundColor:'#40bfe8',
+        flexGrow: 2,
+        alignItems: 'flex-start',
+        margin:10
+    },
+    icon:{
+        width:30,
+        height:30,
+        margin:10
+    },
+    inputbox : { 
+        width: 350,
+        backgroundColor:'#f0f0f0',
+        borderRadius: 8,
+        paddingHorizontal: 16,
+        fontSize: 16,
+        color:'#ffffff',
+        marginVertical: 10,
+        marginEnd: 20,
+        marginStart: 20,
+        marginTop : 10,
+        tintColor: '#ffffff'
+    },
+    signupTextCont : {
+        flexGrow: 1,
+        backgroundColor : "#40bfe8",
+        alignItems:'flex-end',
+        justifyContent :'center',
+        paddingVertical:16,
+        flexDirection:'row'
+    },
+
+    signupText: {
+
+        color:'rgba(255,255,255,0.6)',
+
+        fontSize:16
+
+    },
+    button : {
+        width:300,
+        backgroundColor:'#40bfe8',
+        borderRadius: 8,
+        marginVertical: 20,
+        paddingVertical: 13
+    },
+    loginText: {
+        color: 'white',
+        fontSize:20
+    },
+    buttonText :  {
+        fontSize: 16,
+        fontWeight: '500',
+        color:'#ffffff',
+        textAlign:'center'
+    },
+    signupButton: {
+
+        color:'#ffffff',
+
+        fontSize:16,
+
+        fontWeight:'500'
+
+    },
+    textInput: {
+        fontSize: 16,
+        color : '#000000',
+        height: 40,
+        paddingBottom:10,
+
+    },
+    inputLayoutDaftar: {
+        marginTop: 16,
+        marginHorizontal: 36
     }
+
 });
